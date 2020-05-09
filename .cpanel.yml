@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mw130004/public_html/askme5.it/marko/
+    - /bin/cp * $DEPLOYPATH
